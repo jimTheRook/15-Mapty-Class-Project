@@ -1,0 +1,21 @@
+{
+  "name": "map-workout-tracker",
+  "version": "1.0.0",
+  "description": "map your workouts",
+  "default": "index.html",
+  "type": "module",
+  "browserslist": ">0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Jim Bourbeau",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.34.0",
+    "leaflet": "^1.9.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  }
+}
